@@ -1,9 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:testpage/Pages/HomePage/HomePage.dart';
-import 'package:testpage/Pages/HomePage/HomePage2.dart';
-import 'package:testpage/Pages/HomePage/HomePage3.dart';
+import 'package:testpage/Pages/HomePage/HomePage4.dart';
 import 'package:testpage/firebase_options.dart';
 
 void main() async{
@@ -27,7 +25,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:const HomePage3(),
+      home:const HomePage4(),
     );
   }
 }
